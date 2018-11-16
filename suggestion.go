@@ -11,6 +11,7 @@ import (
 	"github.com/tehsphinx/exalysis/gtpl"
 	"github.com/tehsphinx/exalysis/track/hamming"
 	"github.com/tehsphinx/exalysis/track/isogram"
+	"github.com/tehsphinx/exalysis/track/paraletterfreq"
 	"github.com/tehsphinx/exalysis/track/raindrops"
 	"github.com/tehsphinx/exalysis/track/scrabble"
 	"github.com/tehsphinx/exalysis/track/twofer"
@@ -22,6 +23,7 @@ var exercisePkgs = map[string]extypes.SuggestionFunc{
 	"raindrops": raindrops.Suggest,
 	"scrabble":  scrabble.Suggest,
 	"isogram":   isogram.Suggest,
+	"letter":    paraletterfreq.Suggest,
 }
 
 //GetSuggestions selects the package suggestion routine and returns the suggestions
