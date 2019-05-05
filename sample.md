@@ -1,6 +1,6 @@
 Hi GoLover123!
 
-Welcome to Exercism and welcome to learning Go! Nice to meet you!
+Welcome to learning Go! Nice to meet you!
 
 This looks good!
 
